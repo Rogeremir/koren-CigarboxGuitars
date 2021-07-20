@@ -40,14 +40,7 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
+              <br><br><br><br><br><br><br><br><br><br><br>
                 <div class="masthead-subheading">Bienvenidos a nuestro taller de Instrumentos artesanales!</div>
                 <div class="masthead-heading"></div>
             </div>
@@ -202,17 +195,18 @@
                     <div class="container">
                         <div class="row" justify-content-center >
                             <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                                <div class="text-center"> <h3> Habana Sessions</h3> <p>El humbucker a toda expresion: Blues señoras y señores!!</p>
+                                <div class="text-center" "video-responsive"> <h3> Habana Sessions</h3> <p>El humbucker a toda expresion: Blues señoras y señores!!</p>
                                   <video src="assets/videos/sessions-habana.mp4" width=350  height=250 controls poster="assets/img/sessions/sessions-habana.jpg" alt="Lo sentimos. Este vídeo no puede ser reproducido en tu navegador."></video>
                                 </div>
                             </div>
                             <div class="col-lg-4 mb-4 mb-lg-0">
-                                <div class="text-center"> <h3> Cano Sessions</h3> <p>El simple bobina y su sonido vintage, pasen y vean!!</p>
+                                <div class="text-center" "video-responsive"> <h3> Cano Sessions</h3> <p>El simple bobina y su sonido vintage, pasen y vean.</p>
                                   <video src="assets/videos/sessions-cano.mp4" width=350  height=250 controls poster="assets/img/sessions/sessions-cano.jpg" alt="Lo sentimos. Este vídeo no puede ser reproducido en tu navegador."></video>
                                 </div>
                             </div>
                             <div class="col-lg-4 mb-4 mb-lg-0">
-                                <div class="text-center"> <h3> Resonador Sessions</h3> <p>Un viajecito por nuestras raices.</p>
+                                <div class="text-center" "video-responsive"> <h3> Resonador Sessions</h3> <p>Un viajecito por nuestras raices.
+                                <br>Escucha!</p>
                                   <video src="assets/videos/sessions-resonador.mp4" width=350  height=250 controls poster="assets/img/sessions/sessions-resonador.jpg" alt="Lo sentimos. Este vídeo no puede ser reproducido en tu navegador."></video>
                                 </div>
                             </div>
@@ -231,6 +225,7 @@
                   <div class="row" >
                       <div class="col-md-6 text-center"> <h4>De donde viene la Cigarbox Guitars?</h4>
                           <div class="HistoriaCBG">
+                              <br>
                               <p>Las CBG se originaron en tiempos difíciles, cuando la gente tenía muy poco material o dinero, y donde enfrentaron dificultades significativas.
                               Este es el caso de los esclavos afroamericanos en las plantaciones, donde surgieron como una necesidad de hacer música Blues.
                               <br> A lo largo de los siglos, la música se mantuvo viva con el más básico de los instrumentos caseros.
@@ -239,12 +234,15 @@
                           </div>
                       </div>
 
-                      <div class="col-md-4" text-center><h4>Un poco más de nosotros</h4>
-                      <br>
-                      <br>
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/sMXCo8uVq-g?start=44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                      <div class="col-md-6 text-center"><h4>Un poco de lo que hacemos...</h4>
+                        <p class="section-subheading text-muted">Entrevista a Beto Calaramo: </p>
+                          <div class="video-responsive" >
+                              <iframe src="https://www.youtube.com/embed/sMXCo8uVq-g?start=44" max-width height=250 title="Entrevista a Beto Calaramo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                      </div>
+                  </div>
                       <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 text-center">
                           <div class="HistoriaCBG">
                             <br>Muchos de los primeros músicos de Blues, provenientes de entornos extremadamente empobrecidos, comenzaron a tocar con estos instrumentos caseros. Ejemplos incluyen: Furry Lewis, en 1901. Big Bill Broonzy, en 1905. El guitarrista de blues tejano Lightnin' Hopkins, hizo a mano una CBG que usaba alambre de gallinero como cuerdas a principios de la década de 1920. El guitarrista de blues de Chicago, Buddy Guy, a principios de la década de 1940 hizo guitarras con latas viejas de querosene, fijando palos en las latas con clavos y usando alambre de mosquitero de la puerta de la cocina para cuerdas.
                             <br>La revolución de las CBG (actualmente), representa el mayor auge que ha tenido la CBG, que ha pasado de ser un instrumento algo rudimentario a un "adecuado" instrumento que proporciona un medio viable y una deseable alternativa a la corriente principal producida en fábrica.
@@ -259,7 +257,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contactate!</h2>
-                    <h3 class="section-subheading text-muted"></h3>
+
                 </div>
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
@@ -295,9 +293,10 @@
                                 <div class="invalid-feedback" data-sb-feedback="message:required">Este campo es obligatorio.</div>
                                 <!-- option imput-->
                                 <br>
-                                <div class="form-group ">
-                                  <select class="form-control" name="option" id="opciones">
-                                       <option selected="">¿Cual de nuestros box fue el que mas te intereso?</option>
+                                <div class="form-group form-group-select mb-md-0">
+                                  <select class="form-control" name="option" id="opciones" placeholder="¿Cual de nuestros box fue el que mas te intereso? *">
+
+                                       <option selected="Nro segun Porfolio">¿Cual de nuestros box fue el que más te intereso?</option>
                                          <option value="1">CBG Bolivar</option>
                                          <option value="2">CBG Partagas</option>
                                          <option value="3">CBG Habana</option>
